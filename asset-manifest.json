@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.68b96d44.css",
+    "main.js": "/Portfolio-Website/static/js/main.aebe810d.js",
+    "static/js/787.ced97632.chunk.js": "/Portfolio-Website/static/js/787.ced97632.chunk.js",
+    "static/media/network_page-0001.jpg": "/Portfolio-Website/static/media/network_page-0001.5f139673821fac248450.jpg",
+    "static/media/ai.jpg": "/Portfolio-Website/static/media/ai.01947b088b8f2bea5299.jpg",
+    "static/media/software certificate_page-0001.jpg": "/Portfolio-Website/static/media/software certificate_page-0001.96e3f1bc0c8abcb4a3b8.jpg",
+    "static/media/cloud.jpg": "/Portfolio-Website/static/media/cloud.6804e2209f5175d9c4bc.jpg",
+    "static/media/HTML.jpg": "/Portfolio-Website/static/media/HTML.d2557abaa8142d3dd0fa.jpg",
+    "static/media/portfolio_photo.jpg": "/Portfolio-Website/static/media/portfolio_photo.129a1f642372545125df.jpg",
+    "static/media/TitikshaGupta_Resume.pdf": "/Portfolio-Website/static/media/TitikshaGupta_Resume.5a1594dfd86199b973fc.pdf",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.68b96d44.css.map": "/Portfolio-Website/static/css/main.68b96d44.css.map",
+    "main.aebe810d.js.map": "/Portfolio-Website/static/js/main.aebe810d.js.map",
+    "787.ced97632.chunk.js.map": "/Portfolio-Website/static/js/787.ced97632.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68b96d44.css",
+    "static/js/main.aebe810d.js"
+  ]
+}
