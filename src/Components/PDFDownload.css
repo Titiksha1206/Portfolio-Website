@@ -1,0 +1,16 @@
+.pdfbutton {
+    background-color: #0D1B2A;
+    color: var(--title-color-dark);
+    border: 1px solid var(--title-color-dark);
+    padding: 22px 48px;
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: 1.2rem;
+    font-weight: var(--weight-500);
+    z-index: -1;
+    margin-top: 1.5rem;
+}
+
+.pdfbutton:hover {
+    color: #E0E1DD;
+}

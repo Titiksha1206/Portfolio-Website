@@ -1,0 +1,32 @@
+.certification_img {
+    width: 19rem;
+}
+
+.section__title {
+    margin-bottom: 1.5rem;
+}
+
+.certification_name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-top: var(--mb-0-25);
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #8ca3c5;
+}
+
+@media screen and (max-width: 992px) {
+
+    .certification__container {
+        width: initial;
+    }
+
+    .certification_card {
+        padding: 1.25rem 1.5rem;
+    }
+
+    .certification_name {
+        font-size: 12px;
+
+    }
+}
