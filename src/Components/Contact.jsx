@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./contact.css";
 
 const Contact = () => {
@@ -8,13 +10,34 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_6j61b6a",
-      "template_zio0fqe",
-      form.current,
-      "fGr1wppWVeuC8Q77t"
-    );
+    emailjs
+      .sendForm(
+        "service_6j61b6a",
+        "template_zio0fqe",
+        form.current,
+        "Fv-UrxrtXgPHwexA7"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
     e.target.reset();
+  };
+  const notify = () => {
+    toast.success("Message Sent Successfully!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
   return (
     <section className="contact section" id="contact">
@@ -55,6 +78,7 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=6350081679&text=Hello, more information!"
                 className="contact__button"
+                target="blank"
               >
                 Write me{" "}
                 <i class="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -69,7 +93,7 @@ const Contact = () => {
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
-                name="name"
+                name="tname"
                 className="contact__form-input"
                 placeholder="Insert your name"
               />
@@ -88,30 +112,22 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Project</label>
               <textarea
-                placeholder="Write your project"
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
+                placeholder="Write your project"
               />
             </div>
 
-            {/* <button className="button button--flex">
+            <button onClick={notify} className="buttonc">
               Send Message
-              <span className="button__icon">
-                <i class="uil uil-message"></i>
-              </span>
-            </button> */}
-            <a className="button button--flex">
-              Send Message
-              <span className="button__icon">
-                <i class="uil uil-message"></i>
-              </span>
-            </a>
+              <i class="uil uil-message"></i>
+              <ToastContainer />
+            </button>
           </form>
         </div>
       </div>
-      {/* <div className="separator"></div> */}
     </section>
   );
 };

@@ -1,7 +1,7 @@
 .pdfbutton {
     background-color: #0D1B2A;
     color: var(--title-color-dark);
-    border: 1px solid var(--title-color-dark);
+    border: 2px solid var(--title-color-dark);
     padding: 22px 48px;
     border-radius: 35px;
     font-family: var(--second-font);
