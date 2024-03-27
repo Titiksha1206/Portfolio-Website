@@ -148,7 +148,6 @@
     .contact__container {
         column-gap: 3rem;
     }
-
 }
 
 /* For medium devices */
@@ -178,4 +177,5 @@
     .contact__form {
         width: 100%;
     }
+
 }

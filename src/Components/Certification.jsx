@@ -47,7 +47,12 @@ const Certification = () => {
         {ImgData.map(({ id, image, title }) => {
           return (
             <SwiperSlide className="certification_card" key={id}>
-              <img src={image} alt="" className="certification_img" />
+              <img
+                src={image}
+                alt=""
+                className="certification_img"
+                loading="lazy"
+              />
               <h3 className="certification_name">{title}</h3>
             </SwiperSlide>
           );

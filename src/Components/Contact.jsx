@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_6j61b6a",
-        "template_zio0fqe",
+        "service_se34h6e",
+        "template_g5o7uuo",
         form.current,
-        "Fv-UrxrtXgPHwexA7"
+        "0FNGCnVnyYE9FR06a"
       )
       .then(
         () => {
@@ -38,6 +38,56 @@ const Contact = () => {
       progress: undefined,
       theme: "light",
     });
+  };
+
+  const handleSubmit = (e) => {
+    // Handle form submission
+    e.preventDefault();
+    const formData = new FormData(form.current);
+
+    // Example validation
+    if (!formData.get("tname")) {
+      toast.error("Please enter your name", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+      return;
+    }
+    if (!formData.get("email")) {
+      toast.error("Please enter your email address", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+      return;
+    }
+    if (!formData.get("project")) {
+      toast.error("Please enter your project", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+      return;
+    }
+
+    sendEmail(e); // Send email if validation passes
+    notify();
   };
   return (
     <section className="contact section" id="contact">
@@ -88,7 +138,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <form ref={form} onSubmit={handleSubmit} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
@@ -120,7 +170,7 @@ const Contact = () => {
               />
             </div>
 
-            <button onClick={notify} className="buttonc">
+            <button className="buttonc">
               Send Message
               <i class="uil uil-message"></i>
               <ToastContainer />

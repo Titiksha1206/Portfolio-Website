@@ -162,8 +162,8 @@ const Qualification = () => {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
       </section>
-      <div className="separator"></div>
     </>
   );
 };

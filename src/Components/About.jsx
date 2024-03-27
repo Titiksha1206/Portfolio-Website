@@ -15,7 +15,7 @@ const About = () => {
           <div className="about__data">
             <Info />
             <p className="about__description">
-              Sophisticated yet versatile, I'm a Full Stack Web Developer on a
+              Sophisticated yet versatile, I'm a MERN Stack Web Developer on a
               mission to craft immersive digital experiences. With a blend of
               creative flair and technical acumen, I'm dedicated to merging
               aesthetics with professionalism in every digital creation. With
