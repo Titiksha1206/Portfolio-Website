@@ -29,7 +29,7 @@ const Contact = () => {
   };
   const notify = () => {
     toast.success("Message Sent Successfully!", {
-      position: "top-right",
+      position: "bottom-right",
       autoClose: 2000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -48,7 +48,7 @@ const Contact = () => {
     // Example validation
     if (!formData.get("tname")) {
       toast.error("Please enter your name", {
-        position: "top-right",
+        position: "bottom-right",
         autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: true,
@@ -61,7 +61,7 @@ const Contact = () => {
     }
     if (!formData.get("email")) {
       toast.error("Please enter your email address", {
-        position: "top-right",
+        position: "bottom-right",
         autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: true,
@@ -74,7 +74,7 @@ const Contact = () => {
     }
     if (!formData.get("project")) {
       toast.error("Please enter your project", {
-        position: "top-right",
+        position: "bottom-right",
         autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: true,
