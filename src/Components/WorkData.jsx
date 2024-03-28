@@ -15,7 +15,13 @@ export const projectsData = [
     category: "MERN",
     href: "https://github.com/Titiksha1206/RealTime-Pizza-Delivery-Application",
   },
-  { id: 7, image: Work7, title: "Summarizer", category: "ReactJS", href: " " },
+  {
+    id: 7,
+    image: Work7,
+    title: "Summarizer",
+    category: "ReactJS",
+    href: "https://any-url-summarizer.netlify.app/ ",
+  },
   {
     id: 1,
     image: Work1,

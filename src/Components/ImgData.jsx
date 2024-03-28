@@ -7,6 +7,7 @@ import Image6 from "../assets/assets/ai.jpg";
 import Image7 from "../assets/assets/react.jpg";
 import Image8 from "../assets/assets/javascript.jpg";
 import Image9 from "../assets/assets/css.jpg";
+import Image10 from "../assets/assets/container.jpg";
 
 export const ImgData = [
   {
@@ -28,6 +29,11 @@ export const ImgData = [
     id: 4,
     image: Image4,
     title: "Network Communication",
+  },
+  {
+    id: 10,
+    image: Image10,
+    title: "Containers w/ Docker, Kubernetes & OpenShift",
   },
   {
     id: 6,
