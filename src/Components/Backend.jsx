@@ -12,7 +12,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">NODEJS</h3>
-              <span className="skills__level">Basic</span>
+              {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
 
@@ -21,7 +21,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">MONGODB</h3>
-              <span className="skills__level">Basic</span>
+              {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
 
@@ -30,9 +30,48 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">EXPRESSJS</h3>
-              <span className="skills__level">Basic</span>
+              {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">MONGODB ATLAS</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
+
+           <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">MONGOOSE</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
+
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">JWT</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">RESTFUL APIs</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
+
+         
         </div>
       </div>
     </div>

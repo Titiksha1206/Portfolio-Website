@@ -6,8 +6,16 @@ import Work3 from "../assets/assets/recipe book.jpg";
 import Work4 from "../assets/assets/pomodoro timer.jpg";
 import Work5 from "../assets/assets/work1.jpg";
 import Work6 from "../assets/assets/image search.jpg";
+import Work8 from "../assets/assets/WanderLog.jpg"; 
 
 export const projectsData = [
+  {
+    id: 8,
+    image: Work8,
+    title: "WanderLog",
+    category: "MERN",
+    href: "https://github.com/Titiksha1206/WanderLog",
+  },
   {
     id: 9,
     image: Work9,

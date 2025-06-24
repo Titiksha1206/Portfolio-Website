@@ -8,6 +8,7 @@ import Image7 from "../assets/assets/react.jpg";
 import Image8 from "../assets/assets/javascript.jpg";
 import Image9 from "../assets/assets/css.jpg";
 import Image10 from "../assets/assets/container.jpg";
+import devops from "../assets/assets/devops.jpg";
 
 export const ImgData = [
   {
@@ -39,6 +40,11 @@ export const ImgData = [
     id: 6,
     image: Image6,
     title: "Artificial Intelligence",
+  },
+  {
+    id: 11,
+    image: devops,
+    title: "DevOps",
   },
   {
     id: 5,

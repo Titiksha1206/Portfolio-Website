@@ -54,7 +54,7 @@ const Qualification = () => {
                   <span className="qualification__subtitle">
                     DIT University, Dehradun
                   </span>
-                  <div className="qualification__subper">CGPA : 8.06</div>
+                  <div className="qualification__subper">CGPA : 8.26</div>
                   <div className="qualification__calender">
                     <i class="uil uil-calendar-alt"></i> 2021 - Present
                   </div>
