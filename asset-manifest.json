@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.e50dcccd.css",
-    "main.js": "/Portfolio-Website/static/js/main.ead578bd.js",
+    "main.css": "/Portfolio-Website/static/css/main.508a6cc0.css",
+    "main.js": "/Portfolio-Website/static/js/main.3ef234cd.js",
     "static/js/787.ced97632.chunk.js": "/Portfolio-Website/static/js/787.ced97632.chunk.js",
     "static/media/javascript.jpg": "/Portfolio-Website/static/media/javascript.1edf10528b9ed6f192d3.jpg",
     "static/media/react.jpg": "/Portfolio-Website/static/media/react.e0021bc1085741f625f7.jpg",
@@ -13,9 +13,10 @@
     "static/media/cloud.jpg": "/Portfolio-Website/static/media/cloud.6804e2209f5175d9c4bc.jpg",
     "static/media/HTML.jpg": "/Portfolio-Website/static/media/HTML.d2557abaa8142d3dd0fa.jpg",
     "static/media/portfolio_photo.jpg": "/Portfolio-Website/static/media/portfolio_photo.129a1f642372545125df.jpg",
-    "static/media/TitikshaGupta_Resume.pdf": "/Portfolio-Website/static/media/TitikshaGupta_Resume.5a1594dfd86199b973fc.pdf",
     "static/media/css.jpg": "/Portfolio-Website/static/media/css.ce833ca2b0de59d04cab.jpg",
+    "static/media/devops.jpg": "/Portfolio-Website/static/media/devops.0efd07421db5fc7e8c22.jpg",
     "static/media/pizza-order.jpg": "/Portfolio-Website/static/media/pizza-order.933a8c7887a33c420dc8.jpg",
+    "static/media/TitikshaGupta_Resume.pdf": "/Portfolio-Website/static/media/TitikshaGupta_Resume.33e4186ab6bd0315ba27.pdf",
     "static/media/recipe book.jpg": "/Portfolio-Website/static/media/recipe book.5c74cd2571e2e9b19759.jpg",
     "static/media/work2.jpg": "/Portfolio-Website/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "static/media/image search.jpg": "/Portfolio-Website/static/media/image search.72bc0e8415f59c1ca3ea.jpg",
@@ -23,13 +24,14 @@
     "static/media/work1.jpg": "/Portfolio-Website/static/media/work1.321b4ae3bf404acdfdc6.jpg",
     "static/media/work3.jpg": "/Portfolio-Website/static/media/work3.135e9065694bc13dc31d.jpg",
     "static/media/pomodoro timer.jpg": "/Portfolio-Website/static/media/pomodoro timer.4dcd1f5d111f00258f69.jpg",
+    "static/media/WanderLog.jpg": "/Portfolio-Website/static/media/WanderLog.8328a1c301e41b3f148a.jpg",
     "index.html": "/Portfolio-Website/index.html",
-    "main.e50dcccd.css.map": "/Portfolio-Website/static/css/main.e50dcccd.css.map",
-    "main.ead578bd.js.map": "/Portfolio-Website/static/js/main.ead578bd.js.map",
+    "main.508a6cc0.css.map": "/Portfolio-Website/static/css/main.508a6cc0.css.map",
+    "main.3ef234cd.js.map": "/Portfolio-Website/static/js/main.3ef234cd.js.map",
     "787.ced97632.chunk.js.map": "/Portfolio-Website/static/js/787.ced97632.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50dcccd.css",
-    "static/js/main.ead578bd.js"
+    "static/css/main.508a6cc0.css",
+    "static/js/main.3ef234cd.js"
   ]
 }
