@@ -56,7 +56,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__subper">CGPA : 8.26</div>
                   <div className="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i> 2021 - Present
+                    <i class="uil uil-calendar-alt"></i> 2021 - 2025
                   </div>
                 </div>
 
